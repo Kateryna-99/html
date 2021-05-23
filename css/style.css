@@ -1,0 +1,35 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+</style>
+
+.blok_nav{
+    background-image: url("../img/unnamed.jpg");
+
+}
+
+#img-block{
+    width: 300px;
+
+}
+@media(min-width:600px){
+    #img-block{
+        width: 300px;
+    }
+}
+
+#img-header{
+    width: 25%;
+}
+@media(min-width:600px){
+   #img-header{
+    width: 600px;
+} 
+}
+
+.product{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+*{
+    font-family: 'Inter', sans-serif;
+}
